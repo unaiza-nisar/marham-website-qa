@@ -1,0 +1,14 @@
+{
+  "name": "marham-website-qa",
+  "private": true,
+  "description": "Read-only QA checks for www.marham.pk, run by GitHub Actions. Results are read by the Marham QA agent.",
+  "scripts": {
+    "test": "playwright test",
+    "test:api": "playwright test --project=api",
+    "test:mobile": "playwright test --project=mobile",
+    "summarize": "node scripts/summarize.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.65.1"
+  }
+}
