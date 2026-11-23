@@ -1,0 +1,55 @@
+name: marham-website-qa
+on:
+  schedule:
+    - cron: '40 1 * * *'   # 06:40 PKT daily, before the agent's 07:25 run
+  workflow_dispatch:        # run by hand from the Actions tab (e.g. after a deploy)
+permissions:
+  contents: write           # only to push results to the qa-results branch of THIS repo
+concurrency:
+  group: qa
+  cancel-in-progress: false
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: npm install --no-audit --no-fund
+      - run: npx playwright install --with-deps chromium
+      - name: Run checks (read-only, no bookings submitted)
+        run: npx playwright test
+        continue-on-error: true   # failures are findings for the agent, not a broken pipeline
+      - name: Summarize for the QA agent
+        if: always()
+        run: node scripts/summarize.mjs
+      - name: Copy failure screenshots next to the summary
+        if: always()
+        run: |
+          mkdir -p results/screens/failures
+          find test-results -name '*.png' -exec sh -c 'cp "$1" "results/screens/failures/$(echo "$1" | tr / _ )"' _ {} \; || true
+      # The QA agent reads results from the qa-results branch (git clone), which needs
+      # no extra token. Each run replaces the branch with the latest results only.
+      - name: Publish results to the qa-results branch
+        if: always()
+        run: |
+          set -e
+          mkdir -p /tmp/pub && cp -r results/qa-results.json results/screens /tmp/pub/ 2>/dev/null || true
+          cd /tmp/pub
+          git init -q -b qa-results
+          git config user.name "marham-qa-bot"
+          git config user.email "qa-bot@users.noreply.github.com"
+          git add -A
+          git commit -q -m "QA results $(date -u +%Y-%m-%dT%H:%MZ) for ${GITHUB_SHA}"
+          git push -q --force "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" qa-results
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: qa-results
+          path: |
+            results/qa-results.json
+            results/html
+            results/screens
+            test-results
+          retention-days: 14
