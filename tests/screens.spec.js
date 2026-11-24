@@ -1,7 +1,7 @@
 // First-screen screenshots of key pages, saved on every run (pass or fail),
 // so the daily report and bug cards can show what a patient actually saw.
 // Read-only: opens pages, never clicks Book, never submits anything.
-const { test } = require('@playwright/test');
+const { test } = require('./fixtures');
 const { KEY_PAGES, TEST_PROFILES } = require('./urls');
 
 const PAGES = KEY_PAGES.concat(TEST_PROFILES.slice(0, 1));

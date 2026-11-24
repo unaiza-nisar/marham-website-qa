@@ -2,7 +2,7 @@
 // Each rule is a soft check, so one page can report several problems in one run.
 const { test, expect } = require('@playwright/test');
 const { KEY_PAGES } = require('./urls');
-const { title } = require('./html');
+const { title, decodeEntities } = require('./html');
 
 const MAX_HTML_KB = 600;
 
@@ -10,7 +10,7 @@ function metaDescription(html) {
   const m = html.match(/<meta[^>]+name=["']description["'][^>]*>/i);
   if (!m) return '';
   const c = m[0].match(/content=["']([^"']*)["']/i);
-  return c ? c[1].trim() : '';
+  return c ? decodeEntities(c[1]).replace(/\s+/g, ' ').trim() : '';
 }
 
 // A title whose words have run together ("BestGynecologistsinPakistan2026"):

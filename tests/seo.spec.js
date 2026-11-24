@@ -1,5 +1,6 @@
 // Technical SEO checks that matter for the 27 Nov cutover. HTTP only.
 const { test, expect } = require('@playwright/test');
+const { canonical } = require('./html');
 
 const AI_BOTS = ['GPTBot', 'OAI-SearchBot', 'ChatGPT-User', 'ClaudeBot', 'Claude-SearchBot', 'Claude-User', 'PerplexityBot', 'Perplexity-User', 'Google-Extended'];
 
@@ -45,11 +46,28 @@ test('sitemap index and every child sitemap load as XML', async ({ request }, in
   expect.soft(lastmods.size, 'lastmod should reflect real change dates, not always today').toBeGreaterThan(1);
 });
 
-test('upper-case URLs redirect to lower-case instead of 404', async ({ request }, info) => {
+// An upper-case address must not become a second copy of the page.
+// Pass: 301/308 to the lower-case address (best), or 404 (fine: Google sees no duplicate).
+// Fail: 200 without a lower-case canonical (a duplicate page), a temporary redirect (302/307),
+// a redirect somewhere else, or a server error.
+test('upper-case URLs do not create duplicate pages', async ({ request }, info) => {
   const res = await request.get('/doctors/Lahore/Dermatologist', { maxRedirects: 0 });
-  info.annotations.push({ type: 'status', description: String(res.status()) });
-  expect([301, 308], 'should permanently redirect').toContain(res.status());
-  expect(res.headers()['location'] || '').toMatch(/\/doctors\/lahore\/dermatologist/);
+  const status = res.status();
+  const loc = res.headers()['location'] || '';
+  info.annotations.push({ type: 'status', description: loc ? `${status} -> ${loc}` : String(status) });
+  if (status === 404) {
+    info.annotations.push({ type: 'note', description: '404: no duplicate page. A 301 to the lower-case address would be slightly better (keeps any links).' });
+    return;
+  }
+  if (status === 200) {
+    const canon = canonical(await res.text()) || '';
+    info.annotations.push({ type: 'canonical', description: canon || 'none' });
+    expect(new URL(canon || '/', 'https://www.marham.pk').pathname, 'a 200 upper-case page must point its canonical at the lower-case address')
+      .toBe('/doctors/lahore/dermatologist');
+    return;
+  }
+  expect([301, 308], 'a redirect must be permanent (301/308)').toContain(status);
+  expect(loc, 'redirect goes to the lower-case address').toMatch(/\/doctors\/lahore\/dermatologist\/?$/);
 });
 
 test('new listing pages can be cached by the CDN', async ({ request }, info) => {

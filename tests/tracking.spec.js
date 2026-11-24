@@ -1,6 +1,6 @@
 // GA4 tracking checks: the beacon, not the dataLayer, is the proof (analytics-tracking-testing skill).
 // All beacons are captured and answered locally (204), so nothing reaches Marham's live analytics.
-const { test, expect } = require('@playwright/test');
+const { test, expect } = require('./fixtures');
 const { captureAndSilenceBeacons } = require('./ga4');
 
 const MEASUREMENT_ID = 'G-LCWLDX7FXT';

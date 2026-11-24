@@ -18,7 +18,12 @@ module.exports = defineConfig({
     baseURL: process.env.BASE_URL || 'https://www.marham.pk',
     userAgent: 'MarhamQA/1.0 (+qa-agent; read-only) Playwright',
     trace: 'retain-on-failure',
-    screenshot: 'only-on-failure',
+    // Failure screenshots are taken by tests/fixtures.js and tests/mark.js, with the problem
+    // boxed in red, so Playwright's own unmarked failure screenshot is turned off.
+    screenshot: 'off',
+    // Videos: only the high-priority browser checks (booking.spec.js, speed.spec.js) keep one,
+    // and only when they fail. See test.use({ video }) at the top of those files.
+    video: 'off',
     extraHTTPHeaders: { 'X-Marham-QA': '1' },
   },
   projects: [
