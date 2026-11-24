@@ -8,6 +8,8 @@ permissions:
 concurrency:
   group: qa
   cancel-in-progress: false
+env:
+  REPORT_URL: https://unaiza-nisar.github.io/marham-website-qa/
 jobs:
   qa:
     runs-on: ubuntu-latest
@@ -23,14 +25,12 @@ jobs:
         continue-on-error: true   # failures are findings for the agent, not a broken pipeline
       - name: Summarize for the QA agent
         if: always()
+        env:
+          GITHUB_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: node scripts/summarize.mjs
-      - name: Copy failure screenshots next to the summary
-        if: always()
-        run: |
-          mkdir -p results/screens/failures
-          find test-results -name '*.png' -exec sh -c 'cp "$1" "results/screens/failures/$(echo "$1" | tr / _ )"' _ {} \; || true
       # The QA agent reads results from the qa-results branch (git clone), which needs
       # no extra token. Each run replaces the branch with the latest results only.
+      # Bug screenshots (red boxes) are in results/screens/bugs/.
       - name: Publish results to the qa-results branch
         if: always()
         run: |
@@ -43,6 +43,19 @@ jobs:
           git add -A
           git commit -q -m "QA results $(date -u +%Y-%m-%dT%H:%MZ) for ${GITHUB_SHA}"
           git push -q --force "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" qa-results
+      # The HTML report (with videos, traces and red-boxed screenshots) goes to GitHub Pages,
+      # so the latest report is always at REPORT_URL. It is public: it only holds public pages.
+      - name: Prepare the report site
+        if: always()
+        run: |
+          mkdir -p results/html
+          cp -r results/screens results/html/ 2>/dev/null || true
+          cp results/qa-results.json results/html/ 2>/dev/null || true
+      - uses: actions/upload-pages-artifact@v3
+        if: always()
+        with:
+          path: results/html
+          retention-days: 14
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -53,3 +66,18 @@ jobs:
             results/screens
             test-results
           retention-days: 14
+
+  report-site:
+    needs: qa
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
