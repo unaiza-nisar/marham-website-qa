@@ -1,0 +1,2498 @@
+{
+  "run_at": "2026-11-28T09:26:55.615Z",
+  "sha": "95dcb864d1060a3813d9c491e54e0e2d825625fb",
+  "run_url": "https://github.com/unaiza-nisar/marham-website-qa/actions/runs/46130281657",
+  "report_url": "https://unaiza-nisar.github.io/marham-website-qa/",
+  "base_url": "https://www.marham.pk",
+  "counts": {
+    "fail": 44,
+    "pass": 56
+  },
+  "tests": [
+    {
+      "file": "onpage.spec.js",
+      "project": "api",
+      "title": "on-page SEO: /",
+      "status": "fail",
+      "error": "Error: HTML under 600 KB\n\nexpect(received).toBeLessThanOrEqual(expected)\n\nExpected: <= 600\nReceived:    1255",
+      "annotations": [
+        {
+          "type": "title",
+          "description": "Marham: Find A Doctor | Book Appointment or Consult Online"
+        },
+        {
+          "type": "title_chars",
+          "description": "58"
+        },
+        {
+          "type": "description_chars",
+          "description": "133"
+        },
+        {
+          "type": "h1_count",
+          "description": "1"
+        },
+        {
+          "type": "html_kb",
+          "description": "1255"
+        },
+        {
+          "type": "jsonld_blocks",
+          "description": "2"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": true,
+      "duration_ms": 263
+    },
+    {
+      "file": "onpage.spec.js",
+      "project": "api",
+      "title": "on-page SEO: /doctors/pediatrician",
+      "status": "fail",
+      "error": "Error: title 30-65 characters\n\nexpect(received).toBeLessThanOrEqual(expected)\n\nExpected: <= 65\nReceived:    66",
+      "annotations": [
+        {
+          "type": "title",
+          "description": "Best Pediatrician in Pakistan 2026 | Top Child Specialist | Marham"
+        },
+        {
+          "type": "title_chars",
+          "description": "66"
+        },
+        {
+          "type": "description_chars",
+          "description": "146"
+        },
+        {
+          "type": "h1_count",
+          "description": "1"
+        },
+        {
+          "type": "html_kb",
+          "description": "657"
+        },
+        {
+          "type": "jsonld_blocks",
+          "description": "18"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": true,
+      "duration_ms": 181
+    },
+    {
+      "file": "onpage.spec.js",
+      "project": "api",
+      "title": "on-page SEO: /doctors/gastroenterologist",
+      "status": "fail",
+      "error": "Error: HTML under 600 KB\n\nexpect(received).toBeLessThanOrEqual(expected)\n\nExpected: <= 600\nReceived:    713",
+      "annotations": [
+        {
+          "type": "title",
+          "description": "Best Gastroenterologists in Pakistan | Marham"
+        },
+        {
+          "type": "title_chars",
+          "description": "45"
+        },
+        {
+          "type": "description_chars",
+          "description": "158"
+        },
+        {
+          "type": "h1_count",
+          "description": "1"
+        },
+        {
+          "type": "html_kb",
+          "description": "713"
+        },
+        {
+          "type": "jsonld_blocks",
+          "description": "18"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": true,
+      "duration_ms": 216
+    },
+    {
+      "file": "onpage.spec.js",
+      "project": "api",
+      "title": "on-page SEO: /doctors/urologist",
+      "status": "fail",
+      "error": "Error: HTML under 600 KB\n\nexpect(received).toBeLessThanOrEqual(expected)\n\nExpected: <= 600\nReceived:    678",
+      "annotations": [
+        {
+          "type": "title",
+          "description": "Best Urologist in Pakistan | Marham"
+        },
+        {
+          "type": "title_chars",
+          "description": "35"
+        },
+        {
+          "type": "description_chars",
+          "description": "156"
+        },
+        {
+          "type": "h1_count",
+          "description": "1"
+        },
+        {
+          "type": "html_kb",
+          "description": "678"
+        },
+        {
+          "type": "jsonld_blocks",
+          "description": "18"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": true,
+      "duration_ms": 266
+    },
+    {
+      "file": "onpage.spec.js",
+      "project": "api",
+      "title": "on-page SEO: /doctors/lahore/pediatrician",
+      "status": "fail",
+      "error": "Error: HTML under 600 KB\n\nexpect(received).toBeLessThanOrEqual(expected)\n\nExpected: <= 600\nReceived:    658",
+      "annotations": [
+        {
+          "type": "title",
+          "description": "Best Pediatrician in Lahore 2026 | Top Child Specialist | Marham"
+        },
+        {
+          "type": "title_chars",
+          "description": "64"
+        },
+        {
+          "type": "description_chars",
+          "description": "144"
+        },
+        {
+          "type": "h1_count",
+          "description": "1"
+        },
+        {
+          "type": "html_kb",
+          "description": "658"
+        },
+        {
+          "type": "jsonld_blocks",
+          "description": "19"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": true,
+      "duration_ms": 136
+    },
+    {
+      "file": "onpage.spec.js",
+      "project": "api",
+      "title": "on-page SEO: /doctors/karachi/gastroenterologist",
+      "status": "fail",
+      "error": "Error: HTML under 600 KB\n\nexpect(received).toBeLessThanOrEqual(expected)\n\nExpected: <= 600\nReceived:    723",
+      "annotations": [
+        {
+          "type": "title",
+          "description": "Best Gastroenterologists in Karachi | Marham"
+        },
+        {
+          "type": "title_chars",
+          "description": "44"
+        },
+        {
+          "type": "description_chars",
+          "description": "157"
+        },
+        {
+          "type": "h1_count",
+          "description": "1"
+        },
+        {
+          "type": "html_kb",
+          "description": "723"
+        },
+        {
+          "type": "jsonld_blocks",
+          "description": "19"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": true,
+      "duration_ms": 135
+    },
+    {
+      "file": "onpage.spec.js",
+      "project": "api",
+      "title": "on-page SEO: /doctors/lahore/urologist",
+      "status": "fail",
+      "error": "Error: HTML under 600 KB\n\nexpect(received).toBeLessThanOrEqual(expected)\n\nExpected: <= 600\nReceived:    693",
+      "annotations": [
+        {
+          "type": "title",
+          "description": "Best Urologist in Lahore | Marham"
+        },
+        {
+          "type": "title_chars",
+          "description": "33"
+        },
+        {
+          "type": "description_chars",
+          "description": "159"
+        },
+        {
+          "type": "h1_count",
+          "description": "1"
+        },
+        {
+          "type": "html_kb",
+          "description": "693"
+        },
+        {
+          "type": "jsonld_blocks",
+          "description": "19"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": true,
+      "duration_ms": 186
+    },
+    {
+      "file": "onpage.spec.js",
+      "project": "api",
+      "title": "on-page SEO: /doctors/dermatologist",
+      "status": "pass",
+      "error": null,
+      "annotations": [
+        {
+          "type": "title",
+          "description": "Best Dermatologists in Pakistan | Skin Specialist | Marham"
+        },
+        {
+          "type": "title_chars",
+          "description": "58"
+        },
+        {
+          "type": "description_chars",
+          "description": "149"
+        },
+        {
+          "type": "h1_count",
+          "description": "1"
+        },
+        {
+          "type": "html_kb",
+          "description": "472"
+        },
+        {
+          "type": "jsonld_blocks",
+          "description": "17"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 342
+    },
+    {
+      "file": "onpage.spec.js",
+      "project": "api",
+      "title": "on-page SEO: /doctors/lahore/dermatologist",
+      "status": "pass",
+      "error": null,
+      "annotations": [
+        {
+          "type": "title",
+          "description": "Best Dermatologist in Lahore 2026 | Top Skin Specialists | Marham"
+        },
+        {
+          "type": "title_chars",
+          "description": "65"
+        },
+        {
+          "type": "description_chars",
+          "description": "147"
+        },
+        {
+          "type": "h1_count",
+          "description": "1"
+        },
+        {
+          "type": "html_kb",
+          "description": "453"
+        },
+        {
+          "type": "jsonld_blocks",
+          "description": "17"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 376
+    },
+    {
+      "file": "onpage.spec.js",
+      "project": "api",
+      "title": "on-page SEO: /doctors/gynecologist",
+      "status": "pass",
+      "error": null,
+      "annotations": [
+        {
+          "type": "title",
+          "description": "Best Gynecologists in Pakistan 2026 | Marham"
+        },
+        {
+          "type": "title_chars",
+          "description": "44"
+        },
+        {
+          "type": "description_chars",
+          "description": "158"
+        },
+        {
+          "type": "h1_count",
+          "description": "1"
+        },
+        {
+          "type": "html_kb",
+          "description": "415"
+        },
+        {
+          "type": "jsonld_blocks",
+          "description": "17"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 1813
+    },
+    {
+      "file": "onpage.spec.js",
+      "project": "api",
+      "title": "on-page SEO: /labs",
+      "status": "pass",
+      "error": null,
+      "annotations": [
+        {
+          "type": "title",
+          "description": "Best Labs in Pakistan — Book Tests Online | Marham"
+        },
+        {
+          "type": "title_chars",
+          "description": "50"
+        },
+        {
+          "type": "description_chars",
+          "description": "151"
+        },
+        {
+          "type": "h1_count",
+          "description": "1"
+        },
+        {
+          "type": "html_kb",
+          "description": "276"
+        },
+        {
+          "type": "jsonld_blocks",
+          "description": "6"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 1169
+    },
+    {
+      "file": "onpage.spec.js",
+      "project": "api",
+      "title": "on-page SEO: /medicines",
+      "status": "pass",
+      "error": null,
+      "annotations": [
+        {
+          "type": "title",
+          "description": "All Medicines – Uses, Dosage, Benefits & Side Effects | Marham"
+        },
+        {
+          "type": "title_chars",
+          "description": "62"
+        },
+        {
+          "type": "description_chars",
+          "description": "154"
+        },
+        {
+          "type": "h1_count",
+          "description": "1"
+        },
+        {
+          "type": "html_kb",
+          "description": "267"
+        },
+        {
+          "type": "jsonld_blocks",
+          "description": "4"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 793
+    },
+    {
+      "file": "onpage.spec.js",
+      "project": "api",
+      "title": "on-page SEO: /surgeries",
+      "status": "pass",
+      "error": null,
+      "annotations": [
+        {
+          "type": "title",
+          "description": "Surgeries in Pakistan: Procedures, Recovery and Cost | Marham"
+        },
+        {
+          "type": "title_chars",
+          "description": "61"
+        },
+        {
+          "type": "description_chars",
+          "description": "150"
+        },
+        {
+          "type": "h1_count",
+          "description": "1"
+        },
+        {
+          "type": "html_kb",
+          "description": "205"
+        },
+        {
+          "type": "jsonld_blocks",
+          "description": "4"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 354
+    },
+    {
+      "file": "seo.spec.js",
+      "project": "api",
+      "title": "robots.txt is served and lists a sitemap",
+      "status": "pass",
+      "error": null,
+      "annotations": [
+        {
+          "type": "ai_bots_not_named",
+          "description": "Claude-SearchBot, Claude-User, Perplexity-User"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 423
+    },
+    {
+      "file": "seo.spec.js",
+      "project": "api",
+      "title": "robots.txt names the AI assistants (soft check)",
+      "status": "fail",
+      "error": "Error: AI crawlers not named in robots.txt\n\nexpect(received).toEqual(expected) // deep equality\n\n- Expected  - 1\n+ Received  + 5\n\n- Array []\n+ Array [\n+   \"Claude-SearchBot\",\n+   \"Claude-User\",\n+   \"Perplexity-User\",\n+ ]",
+      "annotations": [],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": true,
+      "duration_ms": 148
+    },
+    {
+      "file": "seo.spec.js",
+      "project": "api",
+      "title": "sitemap index and every child sitemap load as XML",
+      "status": "fail",
+      "error": "Error: child sitemaps that fail\n\nexpect(received).toEqual(expected) // deep equality\n\n- Expected  -  1\n+ Received  + 20\n\n- Array []\n+ Array [\n+   \"https://www.marham.pk/sitemap_doctors_1.xml → 429\",\n+   \"https://www.marham.pk/sitemap_doctors_2.xml → 429\",\n+   \"https://www.marham.pk/sitemap_doctors_3.xml → 429\",\n+   \"https://www.marham.pk/sitemap_doctors_4.xml → 429\",\n+   \"https://www.marham.pk/sitemap_forum.xml → 429\",\n+   \"https://www.marham.pk/sitemap_forum_1.xml → 429\",\n+   \"https://www.marham.pk/sitemap_hospital_areas.xml → 429\",\n+   \"https://www.marham.pk/sitemap_hospitals.xml → 429\",\n+  ",
+      "annotations": [
+        {
+          "type": "sitemap",
+          "description": "https://www.marham.pk/sitemaps.xml (index, 21 entries)"
+        },
+        {
+          "type": "broken_sitemaps",
+          "description": "https://www.marham.pk/sitemap_doctors_1.xml → 429 | https://www.marham.pk/sitemap_doctors_2.xml → 429 | https://www.marham.pk/sitemap_doctors_3.xml → 429 | https://www.marham.pk/sitemap_doctors_4.xml → 429 | https://www.marham.pk/sitemap_forum.xml → 429 | https://www.marham.pk/sitemap_forum_1.xml → 429 | https://www.marham.pk/sitemap_hospital_areas.xml → 429 | https://www.marham.pk/sitemap_hospitals.xml → 429 | https://www.marham.pk/sitemap_medicines.xml → 429 | https://www.marham.pk/sitemap_services.xml → 429 | https://www.marham.pk/sitemap_services_1.xml → 429 | https://www.marham.pk/sitemap_services_2.xml → 429 | https://www.marham.pk/sitemap_services_3.xml → 429 | https://www.marham.pk/sitemap_services_4.xml → 429 | https://www.marham.pk/sitemap_services_5.xml → 429 | https://www.marham.pk/sitemap_special_area.xml → 429 | https://www.marham.pk/sitemap_special_city.xml → 429 | https://www.marham.pk/sitemap_special_gender.xml → 429"
+        },
+        {
+          "type": "distinct_lastmod_days",
+          "description": "1"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": true,
+      "duration_ms": 3118
+    },
+    {
+      "file": "seo.spec.js",
+      "project": "api",
+      "title": "upper-case URLs do not create duplicate pages",
+      "status": "fail",
+      "error": "Error: a redirect must be permanent (301/308)\n\nexpect(received).toContain(expected) // indexOf\n\nExpected value: 429\nReceived array: [301, 308]",
+      "annotations": [
+        {
+          "type": "status",
+          "description": "429"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": true,
+      "duration_ms": 98
+    },
+    {
+      "file": "seo.spec.js",
+      "project": "api",
+      "title": "new listing pages can be cached by the CDN",
+      "status": "pass",
+      "error": null,
+      "annotations": [
+        {
+          "type": "cache-control",
+          "description": ""
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 110
+    },
+    {
+      "file": "seo.spec.js",
+      "project": "api",
+      "title": "http and non-www redirect to https://www in one hop",
+      "status": "pass",
+      "error": null,
+      "annotations": [
+        {
+          "type": "http://www.marham.pk/",
+          "description": "301 → https://www.marham.pk/"
+        },
+        {
+          "type": "https://marham.pk/",
+          "description": "301 → https://www.marham.pk/"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 138
+    },
+    {
+      "file": "smoke.spec.js",
+      "project": "api",
+      "title": "page loads and is indexable: /",
+      "status": "pass",
+      "error": null,
+      "annotations": [
+        {
+          "type": "status",
+          "description": "200"
+        },
+        {
+          "type": "ms",
+          "description": "155"
+        },
+        {
+          "type": "stack",
+          "description": "legacy"
+        },
+        {
+          "type": "text_chars",
+          "description": "5427"
+        },
+        {
+          "type": "final_url",
+          "description": "https://www.marham.pk/"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 166
+    },
+    {
+      "file": "smoke.spec.js",
+      "project": "api",
+      "title": "page loads and is indexable: /doctors/pediatrician",
+      "status": "pass",
+      "error": null,
+      "annotations": [
+        {
+          "type": "status",
+          "description": "200"
+        },
+        {
+          "type": "ms",
+          "description": "136"
+        },
+        {
+          "type": "stack",
+          "description": "next"
+        },
+        {
+          "type": "text_chars",
+          "description": "18437"
+        },
+        {
+          "type": "final_url",
+          "description": "https://www.marham.pk/doctors/pediatrician"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 145
+    },
+    {
+      "file": "smoke.spec.js",
+      "project": "api",
+      "title": "page loads and is indexable: /doctors/gastroenterologist",
+      "status": "pass",
+      "error": null,
+      "annotations": [
+        {
+          "type": "status",
+          "description": "200"
+        },
+        {
+          "type": "ms",
+          "description": "91"
+        },
+        {
+          "type": "stack",
+          "description": "next"
+        },
+        {
+          "type": "text_chars",
+          "description": "19607"
+        },
+        {
+          "type": "final_url",
+          "description": "https://www.marham.pk/doctors/gastroenterologist"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 99
+    },
+    {
+      "file": "smoke.spec.js",
+      "project": "api",
+      "title": "page loads and is indexable: /doctors/urologist",
+      "status": "pass",
+      "error": null,
+      "annotations": [
+        {
+          "type": "status",
+          "description": "200"
+        },
+        {
+          "type": "ms",
+          "description": "129"
+        },
+        {
+          "type": "stack",
+          "description": "next"
+        },
+        {
+          "type": "text_chars",
+          "description": "20320"
+        },
+        {
+          "type": "final_url",
+          "description": "https://www.marham.pk/doctors/urologist"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 135
+    },
+    {
+      "file": "smoke.spec.js",
+      "project": "api",
+      "title": "page loads and is indexable: /doctors/lahore/pediatrician",
+      "status": "pass",
+      "error": null,
+      "annotations": [
+        {
+          "type": "status",
+          "description": "200"
+        },
+        {
+          "type": "ms",
+          "description": "79"
+        },
+        {
+          "type": "stack",
+          "description": "next"
+        },
+        {
+          "type": "text_chars",
+          "description": "19278"
+        },
+        {
+          "type": "final_url",
+          "description": "https://www.marham.pk/doctors/lahore/pediatrician"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 85
+    },
+    {
+      "file": "smoke.spec.js",
+      "project": "api",
+      "title": "page loads and is indexable: /doctors/karachi/gastroenterologist",
+      "status": "pass",
+      "error": null,
+      "annotations": [
+        {
+          "type": "status",
+          "description": "200"
+        },
+        {
+          "type": "ms",
+          "description": "172"
+        },
+        {
+          "type": "stack",
+          "description": "next"
+        },
+        {
+          "type": "text_chars",
+          "description": "20666"
+        },
+        {
+          "type": "final_url",
+          "description": "https://www.marham.pk/doctors/karachi/gastroenterologist"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 178
+    },
+    {
+      "file": "smoke.spec.js",
+      "project": "api",
+      "title": "page loads and is indexable: /doctors/lahore/urologist",
+      "status": "pass",
+      "error": null,
+      "annotations": [
+        {
+          "type": "status",
+          "description": "200"
+        },
+        {
+          "type": "ms",
+          "description": "215"
+        },
+        {
+          "type": "stack",
+          "description": "next"
+        },
+        {
+          "type": "text_chars",
+          "description": "21187"
+        },
+        {
+          "type": "final_url",
+          "description": "https://www.marham.pk/doctors/lahore/urologist"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 221
+    },
+    {
+      "file": "smoke.spec.js",
+      "project": "api",
+      "title": "page loads and is indexable: /doctors/dermatologist",
+      "status": "pass",
+      "error": null,
+      "annotations": [
+        {
+          "type": "status",
+          "description": "200"
+        },
+        {
+          "type": "ms",
+          "description": "143"
+        },
+        {
+          "type": "stack",
+          "description": "legacy"
+        },
+        {
+          "type": "text_chars",
+          "description": "25552"
+        },
+        {
+          "type": "final_url",
+          "description": "https://www.marham.pk/doctors/dermatologist"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 149
+    },
+    {
+      "file": "smoke.spec.js",
+      "project": "api",
+      "title": "page loads and is indexable: /doctors/lahore/dermatologist",
+      "status": "pass",
+      "error": null,
+      "annotations": [
+        {
+          "type": "status",
+          "description": "200"
+        },
+        {
+          "type": "ms",
+          "description": "115"
+        },
+        {
+          "type": "stack",
+          "description": "legacy"
+        },
+        {
+          "type": "text_chars",
+          "description": "25465"
+        },
+        {
+          "type": "final_url",
+          "description": "https://www.marham.pk/doctors/lahore/dermatologist"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 122
+    },
+    {
+      "file": "smoke.spec.js",
+      "project": "api",
+      "title": "page loads and is indexable: /doctors/gynecologist",
+      "status": "pass",
+      "error": null,
+      "annotations": [
+        {
+          "type": "status",
+          "description": "200"
+        },
+        {
+          "type": "ms",
+          "description": "122"
+        },
+        {
+          "type": "stack",
+          "description": "legacy"
+        },
+        {
+          "type": "text_chars",
+          "description": "22636"
+        },
+        {
+          "type": "final_url",
+          "description": "https://www.marham.pk/doctors/gynecologist"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 128
+    },
+    {
+      "file": "smoke.spec.js",
+      "project": "api",
+      "title": "page loads and is indexable: /labs",
+      "status": "fail",
+      "error": "Error: HTTP status for /labs\n\nexpect(received).toBe(expected) // Object.is equality\n\nExpected: 200\nReceived: 429",
+      "annotations": [
+        {
+          "type": "status",
+          "description": "429"
+        },
+        {
+          "type": "ms",
+          "description": "76"
+        },
+        {
+          "type": "stack",
+          "description": "legacy"
+        },
+        {
+          "type": "text_chars",
+          "description": "58"
+        },
+        {
+          "type": "final_url",
+          "description": "https://www.marham.pk/labs"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": true,
+      "duration_ms": 99
+    },
+    {
+      "file": "smoke.spec.js",
+      "project": "api",
+      "title": "page loads and is indexable: /medicines",
+      "status": "fail",
+      "error": "Error: HTTP status for /medicines\n\nexpect(received).toBe(expected) // Object.is equality\n\nExpected: 200\nReceived: 429",
+      "annotations": [
+        {
+          "type": "status",
+          "description": "429"
+        },
+        {
+          "type": "ms",
+          "description": "78"
+        },
+        {
+          "type": "stack",
+          "description": "legacy"
+        },
+        {
+          "type": "text_chars",
+          "description": "58"
+        },
+        {
+          "type": "final_url",
+          "description": "https://www.marham.pk/medicines"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": true,
+      "duration_ms": 107
+    },
+    {
+      "file": "smoke.spec.js",
+      "project": "api",
+      "title": "page loads and is indexable: /surgeries",
+      "status": "fail",
+      "error": "Error: HTTP status for /surgeries\n\nexpect(received).toBe(expected) // Object.is equality\n\nExpected: 200\nReceived: 429",
+      "annotations": [
+        {
+          "type": "status",
+          "description": "429"
+        },
+        {
+          "type": "ms",
+          "description": "70"
+        },
+        {
+          "type": "stack",
+          "description": "legacy"
+        },
+        {
+          "type": "text_chars",
+          "description": "58"
+        },
+        {
+          "type": "final_url",
+          "description": "https://www.marham.pk/surgeries"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": true,
+      "duration_ms": 103
+    },
+    {
+      "file": "smoke.spec.js",
+      "project": "api",
+      "title": "page loads and is indexable: /doctors/lahore/dermatologist/dr-umer-mushtaq",
+      "status": "fail",
+      "error": "Error: HTTP status for /doctors/lahore/dermatologist/dr-umer-mushtaq\n\nexpect(received).toBe(expected) // Object.is equality\n\nExpected: 200\nReceived: 429",
+      "annotations": [
+        {
+          "type": "status",
+          "description": "429"
+        },
+        {
+          "type": "ms",
+          "description": "72"
+        },
+        {
+          "type": "stack",
+          "description": "legacy"
+        },
+        {
+          "type": "text_chars",
+          "description": "58"
+        },
+        {
+          "type": "final_url",
+          "description": "https://www.marham.pk/doctors/lahore/dermatologist/dr-umer-mushtaq"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": true,
+      "duration_ms": 119
+    },
+    {
+      "file": "smoke.spec.js",
+      "project": "api",
+      "title": "page loads and is indexable: /doctors/lahore/dermatologist/dr-aisha-ahmad",
+      "status": "fail",
+      "error": "Error: HTTP status for /doctors/lahore/dermatologist/dr-aisha-ahmad\n\nexpect(received).toBe(expected) // Object.is equality\n\nExpected: 200\nReceived: 429",
+      "annotations": [
+        {
+          "type": "status",
+          "description": "429"
+        },
+        {
+          "type": "ms",
+          "description": "86"
+        },
+        {
+          "type": "stack",
+          "description": "legacy"
+        },
+        {
+          "type": "text_chars",
+          "description": "58"
+        },
+        {
+          "type": "final_url",
+          "description": "https://www.marham.pk/doctors/lahore/dermatologist/dr-aisha-ahmad"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": true,
+      "duration_ms": 136
+    },
+    {
+      "file": "smoke.spec.js",
+      "project": "api",
+      "title": "page loads and is indexable: /doctors/karachi/dermatologist/dr-anita-kazi",
+      "status": "fail",
+      "error": "Error: HTTP status for /doctors/karachi/dermatologist/dr-anita-kazi\n\nexpect(received).toBe(expected) // Object.is equality\n\nExpected: 200\nReceived: 429",
+      "annotations": [
+        {
+          "type": "status",
+          "description": "429"
+        },
+        {
+          "type": "ms",
+          "description": "65"
+        },
+        {
+          "type": "stack",
+          "description": "legacy"
+        },
+        {
+          "type": "text_chars",
+          "description": "58"
+        },
+        {
+          "type": "final_url",
+          "description": "https://www.marham.pk/doctors/karachi/dermatologist/dr-anita-kazi"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": true,
+      "duration_ms": 98
+    },
+    {
+      "file": "smoke.spec.js",
+      "project": "api",
+      "title": "page loads and is indexable: /doctors/hyderabad/dermatologist/dr-rauf-haroon-memon",
+      "status": "fail",
+      "error": "Error: HTTP status for /doctors/hyderabad/dermatologist/dr-rauf-haroon-memon\n\nexpect(received).toBe(expected) // Object.is equality\n\nExpected: 200\nReceived: 429",
+      "annotations": [
+        {
+          "type": "status",
+          "description": "429"
+        },
+        {
+          "type": "ms",
+          "description": "73"
+        },
+        {
+          "type": "stack",
+          "description": "legacy"
+        },
+        {
+          "type": "text_chars",
+          "description": "58"
+        },
+        {
+          "type": "final_url",
+          "description": "https://www.marham.pk/doctors/hyderabad/dermatologist/dr-rauf-haroon-memon"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": true,
+      "duration_ms": 104
+    },
+    {
+      "file": "smoke.spec.js",
+      "project": "api",
+      "title": "page loads and is indexable: /doctors/lahore/dermatologist/prof-dr-nadia-ali-azfar",
+      "status": "fail",
+      "error": "Error: HTTP status for /doctors/lahore/dermatologist/prof-dr-nadia-ali-azfar\n\nexpect(received).toBe(expected) // Object.is equality\n\nExpected: 200\nReceived: 429",
+      "annotations": [
+        {
+          "type": "status",
+          "description": "429"
+        },
+        {
+          "type": "ms",
+          "description": "75"
+        },
+        {
+          "type": "stack",
+          "description": "legacy"
+        },
+        {
+          "type": "text_chars",
+          "description": "58"
+        },
+        {
+          "type": "final_url",
+          "description": "https://www.marham.pk/doctors/lahore/dermatologist/prof-dr-nadia-ali-azfar"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": true,
+      "duration_ms": 97
+    },
+    {
+      "file": "smoke.spec.js",
+      "project": "api",
+      "title": "page loads and is indexable: /doctors/lahore/gynecologist/prof-dr-shamila-ijaz-munir",
+      "status": "fail",
+      "error": "Error: HTTP status for /doctors/lahore/gynecologist/prof-dr-shamila-ijaz-munir\n\nexpect(received).toBe(expected) // Object.is equality\n\nExpected: 200\nReceived: 429",
+      "annotations": [
+        {
+          "type": "status",
+          "description": "429"
+        },
+        {
+          "type": "ms",
+          "description": "70"
+        },
+        {
+          "type": "stack",
+          "description": "legacy"
+        },
+        {
+          "type": "text_chars",
+          "description": "58"
+        },
+        {
+          "type": "final_url",
+          "description": "https://www.marham.pk/doctors/lahore/gynecologist/prof-dr-shamila-ijaz-munir"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": true,
+      "duration_ms": 91
+    },
+    {
+      "file": "smoke.spec.js",
+      "project": "api",
+      "title": "page loads and is indexable: /doctors/lahore/gynecologist/prof-dr-shamayela-hanif",
+      "status": "fail",
+      "error": "Error: HTTP status for /doctors/lahore/gynecologist/prof-dr-shamayela-hanif\n\nexpect(received).toBe(expected) // Object.is equality\n\nExpected: 200\nReceived: 429",
+      "annotations": [
+        {
+          "type": "status",
+          "description": "429"
+        },
+        {
+          "type": "ms",
+          "description": "63"
+        },
+        {
+          "type": "stack",
+          "description": "legacy"
+        },
+        {
+          "type": "text_chars",
+          "description": "58"
+        },
+        {
+          "type": "final_url",
+          "description": "https://www.marham.pk/doctors/lahore/gynecologist/prof-dr-shamayela-hanif"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": true,
+      "duration_ms": 85
+    },
+    {
+      "file": "smoke.spec.js",
+      "project": "api",
+      "title": "page loads and is indexable: /doctors/karachi/gynecologist/dr-kanwal-zehra-zaidi",
+      "status": "fail",
+      "error": "Error: HTTP status for /doctors/karachi/gynecologist/dr-kanwal-zehra-zaidi\n\nexpect(received).toBe(expected) // Object.is equality\n\nExpected: 200\nReceived: 429",
+      "annotations": [
+        {
+          "type": "status",
+          "description": "429"
+        },
+        {
+          "type": "ms",
+          "description": "75"
+        },
+        {
+          "type": "stack",
+          "description": "legacy"
+        },
+        {
+          "type": "text_chars",
+          "description": "58"
+        },
+        {
+          "type": "final_url",
+          "description": "https://www.marham.pk/doctors/karachi/gynecologist/dr-kanwal-zehra-zaidi"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": true,
+      "duration_ms": 119
+    },
+    {
+      "file": "smoke.spec.js",
+      "project": "api",
+      "title": "page loads and is indexable: /doctors/lahore/immunologist/prof-dr-nadeem-afzal",
+      "status": "fail",
+      "error": "Error: HTTP status for /doctors/lahore/immunologist/prof-dr-nadeem-afzal\n\nexpect(received).toBe(expected) // Object.is equality\n\nExpected: 200\nReceived: 429",
+      "annotations": [
+        {
+          "type": "status",
+          "description": "429"
+        },
+        {
+          "type": "ms",
+          "description": "81"
+        },
+        {
+          "type": "stack",
+          "description": "legacy"
+        },
+        {
+          "type": "text_chars",
+          "description": "58"
+        },
+        {
+          "type": "final_url",
+          "description": "https://www.marham.pk/doctors/lahore/immunologist/prof-dr-nadeem-afzal"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": true,
+      "duration_ms": 185
+    },
+    {
+      "file": "smoke.spec.js",
+      "project": "api",
+      "title": "page loads and is indexable: /doctors/lahore/internal-medicine/assoc-prof-dr-mohammad-atiq-ur-rehman",
+      "status": "fail",
+      "error": "Error: HTTP status for /doctors/lahore/internal-medicine/assoc-prof-dr-mohammad-atiq-ur-rehman\n\nexpect(received).toBe(expected) // Object.is equality\n\nExpected: 200\nReceived: 429",
+      "annotations": [
+        {
+          "type": "status",
+          "description": "429"
+        },
+        {
+          "type": "ms",
+          "description": "79"
+        },
+        {
+          "type": "stack",
+          "description": "legacy"
+        },
+        {
+          "type": "text_chars",
+          "description": "58"
+        },
+        {
+          "type": "final_url",
+          "description": "https://www.marham.pk/doctors/lahore/internal-medicine/assoc-prof-dr-mohammad-atiq-ur-rehman"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": true,
+      "duration_ms": 184
+    },
+    {
+      "file": "smoke.spec.js",
+      "project": "api",
+      "title": "page loads and is indexable: /doctors/lahore/general-surgeon/prof-dr-syed-imran-hussain-andrabi",
+      "status": "fail",
+      "error": "Error: HTTP status for /doctors/lahore/general-surgeon/prof-dr-syed-imran-hussain-andrabi\n\nexpect(received).toBe(expected) // Object.is equality\n\nExpected: 200\nReceived: 429",
+      "annotations": [
+        {
+          "type": "status",
+          "description": "429"
+        },
+        {
+          "type": "ms",
+          "description": "73"
+        },
+        {
+          "type": "stack",
+          "description": "legacy"
+        },
+        {
+          "type": "text_chars",
+          "description": "58"
+        },
+        {
+          "type": "final_url",
+          "description": "https://www.marham.pk/doctors/lahore/general-surgeon/prof-dr-syed-imran-hussain-andrabi"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": true,
+      "duration_ms": 96
+    },
+    {
+      "file": "smoke.spec.js",
+      "project": "api",
+      "title": "page loads and is indexable: /doctors/karachi/neuro-physician/asst-prof-dr-shazia-jatoi",
+      "status": "fail",
+      "error": "Error: HTTP status for /doctors/karachi/neuro-physician/asst-prof-dr-shazia-jatoi\n\nexpect(received).toBe(expected) // Object.is equality\n\nExpected: 200\nReceived: 429",
+      "annotations": [
+        {
+          "type": "status",
+          "description": "429"
+        },
+        {
+          "type": "ms",
+          "description": "60"
+        },
+        {
+          "type": "stack",
+          "description": "legacy"
+        },
+        {
+          "type": "text_chars",
+          "description": "58"
+        },
+        {
+          "type": "final_url",
+          "description": "https://www.marham.pk/doctors/karachi/neuro-physician/asst-prof-dr-shazia-jatoi"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": true,
+      "duration_ms": 90
+    },
+    {
+      "file": "smoke.spec.js",
+      "project": "api",
+      "title": "page loads and is indexable: /doctors/lahore/dentist/dr-imran-zia",
+      "status": "fail",
+      "error": "Error: HTTP status for /doctors/lahore/dentist/dr-imran-zia\n\nexpect(received).toBe(expected) // Object.is equality\n\nExpected: 200\nReceived: 429",
+      "annotations": [
+        {
+          "type": "status",
+          "description": "429"
+        },
+        {
+          "type": "ms",
+          "description": "60"
+        },
+        {
+          "type": "stack",
+          "description": "legacy"
+        },
+        {
+          "type": "text_chars",
+          "description": "58"
+        },
+        {
+          "type": "final_url",
+          "description": "https://www.marham.pk/doctors/lahore/dentist/dr-imran-zia"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": true,
+      "duration_ms": 89
+    },
+    {
+      "file": "smoke.spec.js",
+      "project": "api",
+      "title": "page loads and is indexable: /doctors/karachi/nephrologist/dr-anita-haroon",
+      "status": "fail",
+      "error": "Error: HTTP status for /doctors/karachi/nephrologist/dr-anita-haroon\n\nexpect(received).toBe(expected) // Object.is equality\n\nExpected: 200\nReceived: 429",
+      "annotations": [
+        {
+          "type": "status",
+          "description": "429"
+        },
+        {
+          "type": "ms",
+          "description": "72"
+        },
+        {
+          "type": "stack",
+          "description": "legacy"
+        },
+        {
+          "type": "text_chars",
+          "description": "58"
+        },
+        {
+          "type": "final_url",
+          "description": "https://www.marham.pk/doctors/karachi/nephrologist/dr-anita-haroon"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": true,
+      "duration_ms": 94
+    },
+    {
+      "file": "smoke.spec.js",
+      "project": "api",
+      "title": "page loads and is indexable: /doctors/lahore/dermatologist/dr-muhammad-amjad",
+      "status": "fail",
+      "error": "Error: HTTP status for /doctors/lahore/dermatologist/dr-muhammad-amjad\n\nexpect(received).toBe(expected) // Object.is equality\n\nExpected: 200\nReceived: 429",
+      "annotations": [
+        {
+          "type": "status",
+          "description": "429"
+        },
+        {
+          "type": "ms",
+          "description": "76"
+        },
+        {
+          "type": "stack",
+          "description": "legacy"
+        },
+        {
+          "type": "text_chars",
+          "description": "58"
+        },
+        {
+          "type": "final_url",
+          "description": "https://www.marham.pk/doctors/lahore/dermatologist/dr-muhammad-amjad"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": true,
+      "duration_ms": 107
+    },
+    {
+      "file": "smoke.spec.js",
+      "project": "api",
+      "title": "page loads and is indexable: /doctors/islamabad/internal-medicine/dr-muhammad-salman",
+      "status": "fail",
+      "error": "Error: HTTP status for /doctors/islamabad/internal-medicine/dr-muhammad-salman\n\nexpect(received).toBe(expected) // Object.is equality\n\nExpected: 200\nReceived: 429",
+      "annotations": [
+        {
+          "type": "status",
+          "description": "429"
+        },
+        {
+          "type": "ms",
+          "description": "67"
+        },
+        {
+          "type": "stack",
+          "description": "legacy"
+        },
+        {
+          "type": "text_chars",
+          "description": "58"
+        },
+        {
+          "type": "final_url",
+          "description": "https://www.marham.pk/doctors/islamabad/internal-medicine/dr-muhammad-salman"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": true,
+      "duration_ms": 90
+    },
+    {
+      "file": "smoke.spec.js",
+      "project": "api",
+      "title": "page loads and is indexable: /doctors/lahore/psychiatrist/asst-prof-dr-naseem-chaudhry",
+      "status": "fail",
+      "error": "Error: HTTP status for /doctors/lahore/psychiatrist/asst-prof-dr-naseem-chaudhry\n\nexpect(received).toBe(expected) // Object.is equality\n\nExpected: 200\nReceived: 429",
+      "annotations": [
+        {
+          "type": "status",
+          "description": "429"
+        },
+        {
+          "type": "ms",
+          "description": "77"
+        },
+        {
+          "type": "stack",
+          "description": "legacy"
+        },
+        {
+          "type": "text_chars",
+          "description": "58"
+        },
+        {
+          "type": "final_url",
+          "description": "https://www.marham.pk/doctors/lahore/psychiatrist/asst-prof-dr-naseem-chaudhry"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": true,
+      "duration_ms": 101
+    },
+    {
+      "file": "smoke.spec.js",
+      "project": "api",
+      "title": "page loads and is indexable: /doctors/lahore/dentist/dr-asdaq-asim",
+      "status": "fail",
+      "error": "Error: HTTP status for /doctors/lahore/dentist/dr-asdaq-asim\n\nexpect(received).toBe(expected) // Object.is equality\n\nExpected: 200\nReceived: 429",
+      "annotations": [
+        {
+          "type": "status",
+          "description": "429"
+        },
+        {
+          "type": "ms",
+          "description": "58"
+        },
+        {
+          "type": "stack",
+          "description": "legacy"
+        },
+        {
+          "type": "text_chars",
+          "description": "58"
+        },
+        {
+          "type": "final_url",
+          "description": "https://www.marham.pk/doctors/lahore/dentist/dr-asdaq-asim"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": true,
+      "duration_ms": 160
+    },
+    {
+      "file": "smoke.spec.js",
+      "project": "api",
+      "title": "page loads and is indexable: /doctors/lahore/gynecologist/assoc-prof-dr-misbah-malik",
+      "status": "fail",
+      "error": "Error: HTTP status for /doctors/lahore/gynecologist/assoc-prof-dr-misbah-malik\n\nexpect(received).toBe(expected) // Object.is equality\n\nExpected: 200\nReceived: 429",
+      "annotations": [
+        {
+          "type": "status",
+          "description": "429"
+        },
+        {
+          "type": "ms",
+          "description": "62"
+        },
+        {
+          "type": "stack",
+          "description": "legacy"
+        },
+        {
+          "type": "text_chars",
+          "description": "58"
+        },
+        {
+          "type": "final_url",
+          "description": "https://www.marham.pk/doctors/lahore/gynecologist/assoc-prof-dr-misbah-malik"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": true,
+      "duration_ms": 104
+    },
+    {
+      "file": "smoke.spec.js",
+      "project": "api",
+      "title": "test profile is reachable: /doctors/lahore/dermatologist/prof-dr-ehsan-bhatti-testing-account",
+      "status": "fail",
+      "error": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 200\nReceived: 429",
+      "annotations": [
+        {
+          "type": "status",
+          "description": "429"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": true,
+      "duration_ms": 115
+    },
+    {
+      "file": "smoke.spec.js",
+      "project": "api",
+      "title": "test profile is reachable: /doctors/lahore/psychiatrist/dr-unaiza-nisar-testing-account",
+      "status": "fail",
+      "error": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 200\nReceived: 429",
+      "annotations": [
+        {
+          "type": "status",
+          "description": "429"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": true,
+      "duration_ms": 117
+    },
+    {
+      "file": "smoke.spec.js",
+      "project": "api",
+      "title": "test profile is reachable: /doctors/lahore/psychiatrist/dr-momina-testing",
+      "status": "fail",
+      "error": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 200\nReceived: 429",
+      "annotations": [
+        {
+          "type": "status",
+          "description": "429"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": true,
+      "duration_ms": 132
+    },
+    {
+      "file": "booking.spec.js",
+      "project": "mobile",
+      "title": "Book Appointment is visible on the first screen (or in a sticky bar)",
+      "status": "fail",
+      "error": "Error: expect(locator).toBeVisible() failed\n\nLocator: getByRole('link', { name: /book appointment/i }).or(getByRole('button', { name: /book appointment/i })).first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" getByRole('link', { name: /book appointment/i }).or(getByRole('button', { name: /book appointment/i })).first() with timeout 15000ms\n  - waiting for getByRole('link', { name: /book appointment/i }).or(getByRole('button', { name: /book appointment/i })).first()\n",
+      "annotations": [],
+      "bug_screenshots": [
+        {
+          "file": "screens/bugs/mobile/book-appointment-is-visible-on-the-first-screen-or-in-a-sticky-bar-r1-1.jpg",
+          "note": "FAILED: expect(locator).toBeVisible() failed"
+        }
+      ],
+      "has_video": true,
+      "has_trace": true,
+      "duration_ms": 15628
+    },
+    {
+      "file": "booking.spec.js",
+      "project": "mobile",
+      "title": "fee on the booking page matches a fee shown on the profile",
+      "status": "fail",
+      "error": "Error: in-clinic booking explains payment\n\nexpect(received).toBe(expected) // Object.is equality\n\nExpected: true\nReceived: false",
+      "annotations": [
+        {
+          "type": "profile_fees",
+          "description": "1800"
+        },
+        {
+          "type": "booking_fees",
+          "description": "1800"
+        },
+        {
+          "type": "booking_url",
+          "description": "https://www.marham.pk/doctors/lahore/dermatologist/prof-dr-ehsan-bhatti-testing-account"
+        }
+      ],
+      "bug_screenshots": [
+        {
+          "file": "screens/bugs/mobile/fee-on-the-booking-page-matches-a-fee-shown-on-the-profile-r1-1.jpg",
+          "note": "No \"pay at clinic\" note next to the fee on the booking step"
+        }
+      ],
+      "has_video": true,
+      "has_trace": true,
+      "duration_ms": 4231
+    },
+    {
+      "file": "booking.spec.js",
+      "project": "mobile",
+      "title": "Book Appointment is visible on the first screen (or in a sticky bar)",
+      "status": "fail",
+      "error": "Error: Book Appointment within the first screen\n\nexpect(received).toBeLessThanOrEqual(expected)\n\nExpected: <= 839\nReceived:    3679",
+      "annotations": [
+        {
+          "type": "book_button_y",
+          "description": "3641 of viewport 839"
+        }
+      ],
+      "bug_screenshots": [
+        {
+          "file": "screens/bugs/mobile/book-appointment-is-visible-on-the-first-screen-or-in-a-sticky-bar-r1-1.jpg",
+          "note": "Book Appointment is 3679px down; the first screen ends at 839px"
+        }
+      ],
+      "has_video": true,
+      "has_trace": true,
+      "duration_ms": 1101
+    },
+    {
+      "file": "booking.spec.js",
+      "project": "mobile",
+      "title": "fee on the booking page matches a fee shown on the profile",
+      "status": "fail",
+      "error": "Error: booking step shows a fee\n\nexpect(received).toBeGreaterThan(expected)\n\nExpected: > 0\nReceived:   0",
+      "annotations": [
+        {
+          "type": "profile_fees",
+          "description": "100, 1000, 2000, 2500"
+        },
+        {
+          "type": "booking_fees",
+          "description": "none found"
+        },
+        {
+          "type": "booking_url",
+          "description": "https://www.marham.pk/doctors/lahore/psychiatrist/dr-unaiza-nisar-testing-account/callcenter?h_id=702"
+        }
+      ],
+      "bug_screenshots": [
+        {
+          "file": "screens/bugs/mobile/fee-on-the-booking-page-matches-a-fee-shown-on-the-profile-r1-1.jpg",
+          "note": "FAILED: booking step shows a fee"
+        }
+      ],
+      "has_video": true,
+      "has_trace": true,
+      "duration_ms": 4325
+    },
+    {
+      "file": "booking.spec.js",
+      "project": "mobile",
+      "title": "Book Appointment is visible on the first screen (or in a sticky bar)",
+      "status": "fail",
+      "error": "Error: Book Appointment within the first screen\n\nexpect(received).toBeLessThanOrEqual(expected)\n\nExpected: <= 839\nReceived:    3730",
+      "annotations": [
+        {
+          "type": "book_button_y",
+          "description": "3692 of viewport 839"
+        }
+      ],
+      "bug_screenshots": [
+        {
+          "file": "screens/bugs/mobile/book-appointment-is-visible-on-the-first-screen-or-in-a-sticky-bar-r1-1.jpg",
+          "note": "Book Appointment is 3730px down; the first screen ends at 839px"
+        }
+      ],
+      "has_video": true,
+      "has_trace": true,
+      "duration_ms": 1282
+    },
+    {
+      "file": "booking.spec.js",
+      "project": "mobile",
+      "title": "fee on the booking page matches a fee shown on the profile",
+      "status": "fail",
+      "error": "Error: booking step shows a fee\n\nexpect(received).toBeGreaterThan(expected)\n\nExpected: > 0\nReceived:   0",
+      "annotations": [
+        {
+          "type": "profile_fees",
+          "description": "100, 1000, 2000, 2500"
+        },
+        {
+          "type": "booking_fees",
+          "description": "none found"
+        },
+        {
+          "type": "booking_url",
+          "description": "https://www.marham.pk/doctors/lahore/psychiatrist/dr-momina-testing/callcenter?h_id=702"
+        }
+      ],
+      "bug_screenshots": [
+        {
+          "file": "screens/bugs/mobile/fee-on-the-booking-page-matches-a-fee-shown-on-the-profile-r1-1.jpg",
+          "note": "FAILED: booking step shows a fee"
+        }
+      ],
+      "has_video": true,
+      "has_trace": true,
+      "duration_ms": 3836
+    },
+    {
+      "file": "screens.spec.js",
+      "project": "mobile",
+      "title": "screenshot /",
+      "status": "pass",
+      "error": null,
+      "annotations": [],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 2384
+    },
+    {
+      "file": "screens.spec.js",
+      "project": "desktop",
+      "title": "screenshot /",
+      "status": "pass",
+      "error": null,
+      "annotations": [],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 2184
+    },
+    {
+      "file": "screens.spec.js",
+      "project": "mobile",
+      "title": "screenshot /doctors/pediatrician",
+      "status": "pass",
+      "error": null,
+      "annotations": [],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 1754
+    },
+    {
+      "file": "screens.spec.js",
+      "project": "desktop",
+      "title": "screenshot /doctors/pediatrician",
+      "status": "pass",
+      "error": null,
+      "annotations": [],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 1955
+    },
+    {
+      "file": "screens.spec.js",
+      "project": "mobile",
+      "title": "screenshot /doctors/gastroenterologist",
+      "status": "pass",
+      "error": null,
+      "annotations": [],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 1828
+    },
+    {
+      "file": "screens.spec.js",
+      "project": "desktop",
+      "title": "screenshot /doctors/gastroenterologist",
+      "status": "pass",
+      "error": null,
+      "annotations": [],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 1987
+    },
+    {
+      "file": "screens.spec.js",
+      "project": "mobile",
+      "title": "screenshot /doctors/urologist",
+      "status": "pass",
+      "error": null,
+      "annotations": [],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 2098
+    },
+    {
+      "file": "screens.spec.js",
+      "project": "desktop",
+      "title": "screenshot /doctors/urologist",
+      "status": "pass",
+      "error": null,
+      "annotations": [],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 1999
+    },
+    {
+      "file": "screens.spec.js",
+      "project": "mobile",
+      "title": "screenshot /doctors/lahore/pediatrician",
+      "status": "pass",
+      "error": null,
+      "annotations": [],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 2088
+    },
+    {
+      "file": "screens.spec.js",
+      "project": "desktop",
+      "title": "screenshot /doctors/lahore/pediatrician",
+      "status": "pass",
+      "error": null,
+      "annotations": [],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 1994
+    },
+    {
+      "file": "screens.spec.js",
+      "project": "mobile",
+      "title": "screenshot /doctors/karachi/gastroenterologist",
+      "status": "pass",
+      "error": null,
+      "annotations": [],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 2014
+    },
+    {
+      "file": "screens.spec.js",
+      "project": "desktop",
+      "title": "screenshot /doctors/karachi/gastroenterologist",
+      "status": "pass",
+      "error": null,
+      "annotations": [],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 1684
+    },
+    {
+      "file": "screens.spec.js",
+      "project": "mobile",
+      "title": "screenshot /doctors/lahore/urologist",
+      "status": "pass",
+      "error": null,
+      "annotations": [],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 1817
+    },
+    {
+      "file": "screens.spec.js",
+      "project": "desktop",
+      "title": "screenshot /doctors/lahore/urologist",
+      "status": "pass",
+      "error": null,
+      "annotations": [],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 1920
+    },
+    {
+      "file": "screens.spec.js",
+      "project": "mobile",
+      "title": "screenshot /doctors/dermatologist",
+      "status": "pass",
+      "error": null,
+      "annotations": [],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 3164
+    },
+    {
+      "file": "screens.spec.js",
+      "project": "desktop",
+      "title": "screenshot /doctors/dermatologist",
+      "status": "pass",
+      "error": null,
+      "annotations": [],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 1862
+    },
+    {
+      "file": "screens.spec.js",
+      "project": "mobile",
+      "title": "screenshot /doctors/lahore/dermatologist",
+      "status": "pass",
+      "error": null,
+      "annotations": [],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 2193
+    },
+    {
+      "file": "screens.spec.js",
+      "project": "desktop",
+      "title": "screenshot /doctors/lahore/dermatologist",
+      "status": "pass",
+      "error": null,
+      "annotations": [],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 1923
+    },
+    {
+      "file": "screens.spec.js",
+      "project": "mobile",
+      "title": "screenshot /doctors/gynecologist",
+      "status": "pass",
+      "error": null,
+      "annotations": [],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 2183
+    },
+    {
+      "file": "screens.spec.js",
+      "project": "desktop",
+      "title": "screenshot /doctors/gynecologist",
+      "status": "pass",
+      "error": null,
+      "annotations": [],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 1844
+    },
+    {
+      "file": "screens.spec.js",
+      "project": "mobile",
+      "title": "screenshot /labs",
+      "status": "pass",
+      "error": null,
+      "annotations": [],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 1852
+    },
+    {
+      "file": "screens.spec.js",
+      "project": "desktop",
+      "title": "screenshot /labs",
+      "status": "pass",
+      "error": null,
+      "annotations": [],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 2902
+    },
+    {
+      "file": "screens.spec.js",
+      "project": "mobile",
+      "title": "screenshot /medicines",
+      "status": "pass",
+      "error": null,
+      "annotations": [],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 3069
+    },
+    {
+      "file": "screens.spec.js",
+      "project": "desktop",
+      "title": "screenshot /medicines",
+      "status": "pass",
+      "error": null,
+      "annotations": [],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 2417
+    },
+    {
+      "file": "screens.spec.js",
+      "project": "mobile",
+      "title": "screenshot /surgeries",
+      "status": "pass",
+      "error": null,
+      "annotations": [],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 1909
+    },
+    {
+      "file": "screens.spec.js",
+      "project": "desktop",
+      "title": "screenshot /surgeries",
+      "status": "pass",
+      "error": null,
+      "annotations": [],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 1812
+    },
+    {
+      "file": "screens.spec.js",
+      "project": "mobile",
+      "title": "screenshot /doctors/lahore/dermatologist/prof-dr-ehsan-bhatti-testing-account",
+      "status": "pass",
+      "error": null,
+      "annotations": [],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 4756
+    },
+    {
+      "file": "screens.spec.js",
+      "project": "desktop",
+      "title": "screenshot /doctors/lahore/dermatologist/prof-dr-ehsan-bhatti-testing-account",
+      "status": "pass",
+      "error": null,
+      "annotations": [],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 1957
+    },
+    {
+      "file": "speed.spec.js",
+      "project": "mobile",
+      "title": "phone speed and first screen: /doctors/lahore/pediatrician",
+      "status": "fail",
+      "error": "Error: HTTP 200\n\nexpect(received).toBe(expected) // Object.is equality\n\nExpected: 200\nReceived: 429",
+      "annotations": [],
+      "bug_screenshots": [
+        {
+          "file": "screens/bugs/mobile/phone-speed-and-first-screen-doctors-lahore-pediatrician-r1-1.jpg",
+          "note": "FAILED: HTTP 200"
+        }
+      ],
+      "has_video": true,
+      "has_trace": true,
+      "duration_ms": 1009
+    },
+    {
+      "file": "speed.spec.js",
+      "project": "mobile",
+      "title": "phone speed and first screen: /doctors/karachi/gastroenterologist",
+      "status": "fail",
+      "error": "Error: HTTP 200\n\nexpect(received).toBe(expected) // Object.is equality\n\nExpected: 200\nReceived: 429",
+      "annotations": [],
+      "bug_screenshots": [
+        {
+          "file": "screens/bugs/mobile/phone-speed-and-first-screen-doctors-karachi-gastroenterologist-r1-1.jpg",
+          "note": "FAILED: HTTP 200"
+        }
+      ],
+      "has_video": true,
+      "has_trace": true,
+      "duration_ms": 952
+    },
+    {
+      "file": "speed.spec.js",
+      "project": "mobile",
+      "title": "phone speed and first screen: /doctors/lahore/urologist",
+      "status": "fail",
+      "error": "Error: HTTP 200\n\nexpect(received).toBe(expected) // Object.is equality\n\nExpected: 200\nReceived: 429",
+      "annotations": [],
+      "bug_screenshots": [
+        {
+          "file": "screens/bugs/mobile/phone-speed-and-first-screen-doctors-lahore-urologist-r1-1.jpg",
+          "note": "FAILED: HTTP 200"
+        }
+      ],
+      "has_video": true,
+      "has_trace": true,
+      "duration_ms": 929
+    },
+    {
+      "file": "speed.spec.js",
+      "project": "mobile",
+      "title": "phone speed and first screen: /doctors/gynecologist",
+      "status": "pass",
+      "error": null,
+      "annotations": [
+        {
+          "type": "lab_lcp_ms",
+          "description": "192"
+        },
+        {
+          "type": "lab_cls",
+          "description": "0.002"
+        },
+        {
+          "type": "viewport",
+          "description": "412x839"
+        },
+        {
+          "type": "sideways_px",
+          "description": "0"
+        },
+        {
+          "type": "first_book_bottom_px",
+          "description": "689"
+        },
+        {
+          "type": "first_book_sticky",
+          "description": "false"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 4815
+    },
+    {
+      "file": "speed.spec.js",
+      "project": "mobile",
+      "title": "phone speed and first screen: /doctors/lahore/dermatologist",
+      "status": "pass",
+      "error": null,
+      "annotations": [
+        {
+          "type": "lab_lcp_ms",
+          "description": "128"
+        },
+        {
+          "type": "lab_cls",
+          "description": "0.001"
+        },
+        {
+          "type": "viewport",
+          "description": "412x839"
+        },
+        {
+          "type": "role",
+          "description": "old-site control"
+        },
+        {
+          "type": "sideways_px",
+          "description": "0"
+        },
+        {
+          "type": "first_book_bottom_px",
+          "description": "785"
+        },
+        {
+          "type": "first_book_sticky",
+          "description": "false"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 4662
+    },
+    {
+      "file": "speed.spec.js",
+      "project": "mobile",
+      "title": "phone speed and first screen: /medicines",
+      "status": "pass",
+      "error": null,
+      "annotations": [
+        {
+          "type": "lab_lcp_ms",
+          "description": "768"
+        },
+        {
+          "type": "lab_cls",
+          "description": "0"
+        },
+        {
+          "type": "viewport",
+          "description": "412x839"
+        },
+        {
+          "type": "sideways_px",
+          "description": "0"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 4105
+    },
+    {
+      "file": "tracking.spec.js",
+      "project": "mobile",
+      "title": "new-site listing sends exactly one GA4 page_view with site_version=next",
+      "status": "pass",
+      "error": null,
+      "annotations": [
+        {
+          "type": "page_views",
+          "description": "1"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 12546
+    },
+    {
+      "file": "tracking.spec.js",
+      "project": "desktop",
+      "title": "new-site listing sends exactly one GA4 page_view with site_version=next",
+      "status": "pass",
+      "error": null,
+      "annotations": [
+        {
+          "type": "page_views",
+          "description": "1"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 12451
+    },
+    {
+      "file": "tracking.spec.js",
+      "project": "mobile",
+      "title": "new-site lab pages send site_version=next (known bug TR-003)",
+      "status": "pass",
+      "error": null,
+      "annotations": [
+        {
+          "type": "page_views",
+          "description": "next"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 12874
+    },
+    {
+      "file": "tracking.spec.js",
+      "project": "desktop",
+      "title": "new-site lab pages send site_version=next (known bug TR-003)",
+      "status": "pass",
+      "error": null,
+      "annotations": [
+        {
+          "type": "page_views",
+          "description": "next"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 12881
+    },
+    {
+      "file": "tracking.spec.js",
+      "project": "mobile",
+      "title": "a 50/50 profile sends one page_view and reports which version was served",
+      "status": "pass",
+      "error": null,
+      "annotations": [
+        {
+          "type": "version_served",
+          "description": "next"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 12997
+    },
+    {
+      "file": "tracking.spec.js",
+      "project": "desktop",
+      "title": "a 50/50 profile sends one page_view and reports which version was served",
+      "status": "pass",
+      "error": null,
+      "annotations": [
+        {
+          "type": "version_served",
+          "description": "next"
+        }
+      ],
+      "bug_screenshots": [],
+      "has_video": false,
+      "has_trace": false,
+      "duration_ms": 12314
+    }
+  ],
+  "screens": [
+    "screens/bugs/mobile/book-appointment-is-visible-on-the-first-screen-or-in-a-sticky-bar-r0-1.jpg",
+    "screens/bugs/mobile/book-appointment-is-visible-on-the-first-screen-or-in-a-sticky-bar-r1-1.jpg",
+    "screens/bugs/mobile/fee-on-the-booking-page-matches-a-fee-shown-on-the-profile-r0-1.jpg",
+    "screens/bugs/mobile/fee-on-the-booking-page-matches-a-fee-shown-on-the-profile-r0-2.jpg",
+    "screens/bugs/mobile/fee-on-the-booking-page-matches-a-fee-shown-on-the-profile-r1-1.jpg",
+    "screens/bugs/mobile/phone-speed-and-first-screen-doctors-karachi-gastroenterologist-r0-1.jpg",
+    "screens/bugs/mobile/phone-speed-and-first-screen-doctors-karachi-gastroenterologist-r1-1.jpg",
+    "screens/bugs/mobile/phone-speed-and-first-screen-doctors-lahore-pediatrician-r0-1.jpg",
+    "screens/bugs/mobile/phone-speed-and-first-screen-doctors-lahore-pediatrician-r1-1.jpg",
+    "screens/bugs/mobile/phone-speed-and-first-screen-doctors-lahore-urologist-r0-1.jpg",
+    "screens/bugs/mobile/phone-speed-and-first-screen-doctors-lahore-urologist-r1-1.jpg",
+    "screens/desktop/doctors-dermatologist.jpg",
+    "screens/desktop/doctors-gastroenterologist.jpg",
+    "screens/desktop/doctors-gynecologist.jpg",
+    "screens/desktop/doctors-karachi-gastroenterologist.jpg",
+    "screens/desktop/doctors-lahore-dermatologist-prof-dr-ehsan-bhatti-testing-account.jpg",
+    "screens/desktop/doctors-lahore-dermatologist.jpg",
+    "screens/desktop/doctors-lahore-pediatrician.jpg",
+    "screens/desktop/doctors-lahore-urologist.jpg",
+    "screens/desktop/doctors-pediatrician.jpg",
+    "screens/desktop/doctors-urologist.jpg",
+    "screens/desktop/home.jpg",
+    "screens/desktop/labs.jpg",
+    "screens/desktop/medicines.jpg",
+    "screens/desktop/surgeries.jpg",
+    "screens/mobile/doctors-dermatologist.jpg",
+    "screens/mobile/doctors-gastroenterologist.jpg",
+    "screens/mobile/doctors-gynecologist.jpg",
+    "screens/mobile/doctors-karachi-gastroenterologist.jpg",
+    "screens/mobile/doctors-lahore-dermatologist-prof-dr-ehsan-bhatti-testing-account.jpg",
+    "screens/mobile/doctors-lahore-dermatologist.jpg",
+    "screens/mobile/doctors-lahore-pediatrician.jpg",
+    "screens/mobile/doctors-lahore-urologist.jpg",
+    "screens/mobile/doctors-pediatrician.jpg",
+    "screens/mobile/doctors-urologist.jpg",
+    "screens/mobile/home.jpg",
+    "screens/mobile/labs.jpg",
+    "screens/mobile/medicines.jpg",
+    "screens/mobile/surgeries.jpg"
+  ]
+}
